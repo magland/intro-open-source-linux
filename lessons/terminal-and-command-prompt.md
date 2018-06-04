@@ -6,7 +6,7 @@ Don’t fret… the terminal is your friend… as an open source software develo
 
 Depending on your flavor of Linux, opening a terminal may be as easy as pressing [ctrl]+t, or it may be as difficult as spending hours of fruitless searching. I recommend that you try pressing [ctrl]+t (that is holding down the [ctrl] key and then pressing the letter “t”). If that opens a window that looks something like one of the following then you are in business!
 
-FIG: examples of terminal windows
+TODO: FIG: examples of terminal windows
 
 But on some systems, that common shortcut is not registered. If that is the case for you, then you will need to click around the desktop a bit searching for something called ‘terminal’. Once you find it, then I recommend you figure out how to configure a keyboard shortcut to launch this program. Do a google search if you get stuck.
 
@@ -19,10 +19,10 @@ Using the terminal is like having a text conversation with your computer. Except
 You have probably noticed that the terminal indicates when you are allowed to enter a new command by showing a command prompt. This usually (but not always) displays your current working directory (more about that later) followed by some special characters indicating that you may now enter a command. For example, in my terminal, I see the following
 
 ```
-[insert command prompt]
+magland@dub:/home/magland$
 ```
 
-indicating that my current directory is `/home/magland`. Of all the directories (or folders) on my file system, this is the current directory or the directory that I am now in. If you have multiple terminal windows open, then each has its own current directory. 
+The "magland" is my user name, the "dub" is the name of my computer, and the "/home/magland" is my home directory. Of all the directories (or folders) on my file system, this is the current directory or the directory that I am now in. (Note: you might see the "~" symbol, which is a special way to represent your home directory.) If you have multiple terminal windows open, then each has its own current directory.
 
 There is a very important command that allows you to change the current directory. It is called `cd` and stands for change directory. For example, the following will change to the `/tmp` directory:
 
